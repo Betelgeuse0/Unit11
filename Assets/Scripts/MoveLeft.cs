@@ -6,12 +6,12 @@ public class MoveLeft : MonoBehaviour
 {
     private float speed = 30.0f;
 
-    private PlayerController playerControllerScript;
+    private PlayerControllerX playerControllerScript;
     private float leftBound = -15;
 
     void Start()
     {
-        playerControllerScript = GameObject.Find("Player").GetComponent<PlayerController>();
+        playerControllerScript = GameObject.Find("Player").GetComponent<PlayerControllerX>();
     }
     
     void Update()
